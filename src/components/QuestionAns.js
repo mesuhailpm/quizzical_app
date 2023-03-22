@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { nanoid } from "nanoid";
+import { nanoid } from 'nanoid'
 import getQuestions from "../services/getQuestions";
 import QuestionPart from "./QuestionPart";
 import './QuestionAns.css'
