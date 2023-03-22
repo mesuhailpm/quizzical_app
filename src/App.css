@@ -1,8 +1,5 @@
 body {
-    /* these are added by default */
     margin: 0;
-
-    /* added by me */
 
   }
   p{
@@ -26,7 +23,6 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    /* border:solid yellow; */
     height:100vh
   }
   main{
