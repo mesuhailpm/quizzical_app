@@ -1,0 +1,134 @@
+body {
+    /* these are added by default */
+    margin: 0;
+
+    /* added by me */
+
+  }
+  p{
+    margin :5px;
+  }
+  button{
+    background-color: #4D5B9E;
+    font-size: 12px;
+    border: none;
+    padding: 15px 50px ;
+    color: #F5F7FB;
+    border-radius: 15px;
+    font-family: inter;
+    font-weight: 500;
+  }
+  .submit-answer{
+    align-self: center;
+    margin: 15px 0 0 0;
+  }
+  .App{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid yellow; */
+    height:100vh
+  }
+  main{
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#293264;
+    padding:20px 100px;
+    height:600px;
+    width:550px;
+    background-color: #F5F7FB;
+    background-image: url(./images/blobupper.png), url(./images/bloblower.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+
+  }
+  .intro{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .choice-and-validator{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+
+  .choice-container{
+    border-bottom: 1px solid #DBDEF0;
+    padding-bottom: 15px;
+    margin: 10px 0;
+    width:100%;
+    display:flex;
+    justify-self: flex-start;
+  }
+  .validator{
+    height:25px;
+    align-self: flex-start;
+   }
+  .choice{
+    background-color: transparent;
+    font-size: 12px;
+    border: 0.794239px solid #4D5B9E;
+    padding: 5px 15px ;
+    color: #293264;
+    border-radius: 9px;
+    font-family: inter;
+    font-weight: 500;
+    margin-right: 20px;
+    height: auto;
+    max-width:30%
+  }
+
+  .selected{
+    background-color: #D6DBF5
+    ;
+  }
+  .selected .disabled{
+    background-color: aquamarine;
+  }
+  .incorrect{
+    background-color:#F8BCBC;
+    border: none;
+   }
+   .correct{
+    background-color:#94D7A2;
+    border: none;
+
+   }
+
+
+  .score-card{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    width:400px;
+  }
+  .new-game{
+    background-color: #4D5B9E;
+    align-self: center;
+    border-radius: 7px;
+    width:auto;
+    color:#F5F7FB;
+    padding: 10px 35px ;
+    justify-content: center;
+    align-items: center;
+  }
+  .disabled{
+    background-color: transparent;
+    opacity: 0.5;
+
+  }
